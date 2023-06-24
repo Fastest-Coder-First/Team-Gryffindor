@@ -131,4 +131,4 @@ dmypy.json
 sample_data/
 
 # pdf files -> report files
-configs/config.json
+config.json
