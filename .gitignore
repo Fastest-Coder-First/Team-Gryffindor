@@ -129,6 +129,3 @@ dmypy.json
 
 # test files
 sample_data/
-
-# pdf files -> report files
-config.json

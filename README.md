@@ -25,6 +25,10 @@
 2. **Graph Generation**: The application can generate graphs to visualize the weather data, such as temperature, precipitation, or wind speed, for better understanding and analysis.
 3. **CSV Conversion**: Weather data can be converted into Comma-Separated Values (CSV) format, which enables easy importing and manipulation of data in spreadsheet software or other tools.
 
+## Architecture Flow Diagram
+
+![CLI_HELP](https://github.com/Fastest-Coder-First/Team-Gryffindor/blob/main/images/7.png)
+
 ## Project Structure
 
 ├── README.md

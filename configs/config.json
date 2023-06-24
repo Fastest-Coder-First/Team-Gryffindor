@@ -1,0 +1,15 @@
+{
+  "api_key": "68e399e4831ebfd39df8e8c8391fd362",
+  "args": {
+    "-lat": "Latitude",
+    "-long": "Longitude",
+    "-city": "City",
+    "-country": "Country",
+    "-lang": "Language",
+    "-units": "Units",
+    "--to-csv": "Converts Weather Data to .csv format",
+    "--temp-graph": "Display Temperature Graph"
+  },
+  "bool_args": ["--to-csv", "--temp-graph"],
+  "numeric_defaults": ["-lat", "-long"]
+}
