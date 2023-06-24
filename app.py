@@ -2,9 +2,9 @@ from arg_parser import *
 
 # Imports
 from console import *
-from weather import *
+from weatherAPI import *
 
-weather = Weather()
+weather = WeatherAPI()
 console = Console()
 
 
