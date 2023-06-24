@@ -22,8 +22,8 @@
 
 1. **Weather Forecast**: The application retrieves current weather conditions and a five-day forecast for the specified location.
    Location Search: Users can search for a location using the city name or geographical coordinates (latitude and longitude).
-2. Graph Generation: The application can generate graphs to visualize the weather data, such as temperature, precipitation, or wind speed, for better understanding and analysis.
-3. CSV Conversion: Weather data can be converted into Comma-Separated Values (CSV) format, which enables easy importing and manipulation of data in spreadsheet software or other tools.
+2. **Graph Generation**: The application can generate graphs to visualize the weather data, such as temperature, precipitation, or wind speed, for better understanding and analysis.
+3. **CSV Conversion**: Weather data can be converted into Comma-Separated Values (CSV) format, which enables easy importing and manipulation of data in spreadsheet software or other tools.
 
 ### CLI Help
 
@@ -70,16 +70,12 @@
 ![graph](https://github.com/Fastest-Coder-First/Team-Gryffindor/blob/main/images/6.png)
 
 </br>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- API's Used -->
 
 ## API's Used
 
 - [MeteoAPI](https://open-meteo.com/en/docs)
 - [OpenWeatherAPI](https://openweathermap.org/api)
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- GETTING STARTED -->
 
 ## Getting Started
@@ -110,10 +106,6 @@ To get a local copy up and running follow these simple example steps.
     python app.py
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- USAGE EXAMPLES -->
-
 ## Usage of Copilot
 
 ### Error Handling
@@ -132,14 +124,8 @@ To get a local copy up and running follow these simple example steps.
 
 - Copilot's ability to suggest comments for functions and classes was also beneficial. This allowed me to save time on writing comments and focus on the core functionality of the application.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTACT -->
-
 ## Contact
 
 ![https://www.linkedin.com/in/ashwin-balasubramanian-0293691a5/][linkedin-shield] ![https://github.com/sinking8](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
