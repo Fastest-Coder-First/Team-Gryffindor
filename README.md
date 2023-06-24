@@ -13,6 +13,18 @@
 
 ## About The Project
 
+### Introduction
+
+- The CLI Weather Forecast Application is a command-line interface (CLI) tool designed to provide weather forecasts for a given city or location. It utilizes weather data from a reliable weather API to generate accurate forecasts.
+- Additionally, the application allows users to generate graphs or convert weather data into CSV format for further analysis or integration with other tools.
+
+### Features
+
+1. Weather Forecast: The application retrieves current weather conditions and a five-day forecast for the specified location.
+   Location Search: Users can search for a location using the city name or geographical coordinates (latitude and longitude).
+2. Graph Generation: The application can generate graphs to visualize the weather data, such as temperature, precipitation, or wind speed, for better understanding and analysis.
+3. CSV Conversion: Weather data can be converted into Comma-Separated Values (CSV) format, which enables easy importing and manipulation of data in spreadsheet software or other tools.
+
 ### CLI Help
 
 ```sh
@@ -102,9 +114,21 @@ To get a local copy up and running follow these simple example steps.
 
 <!-- USAGE EXAMPLES -->
 
-## Usage
+## Usage of Copilot
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+### Error Handling
+
+- Copilot's ability to suggest error handling and debugging code snippets was another valuable asset during development. It helped me identify potential edge cases and provided suggestions for error handling and exception handling mechanisms. By incorporating Copilot's suggestions
+  - Certain instances were
+    - When the user enters an invalid location, the application will display an error message and exit.
+
+### Accelaerated Development
+
+- Github copilot enabled me to accelerate the development process by providing code snippets for common tasks such as reading and writing files, parsing JSON data, and generating graphs. This allowed me to focus on the core functionality of the application.
+
+- Repetitive tasks such as reading and writing files, parsing JSON data, and generating graphs were made easier by Github Copilot's ability to provide code snippets for common tasks. This allowed me to focus on the core functionality of the application and save time on repetitive tasks.
+
+- Its ability to give extensive suggestions for function and variable names was also beneficial. This allowed me to save time on naming variables and functions and focus on the core functionality of the application.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
