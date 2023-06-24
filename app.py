@@ -1,23 +1,14 @@
-import os
-
-
 from arg_parser import *
 
 # Imports
 from console import *
 from weather import *
 
-import rich
-
-import numpy as np
-import pandas as pd
-
 weather = Weather()
 console = Console()
 
 
 def main():
-
     # Generate welcome message
     console.generate_welcome_message()
 
@@ -30,7 +21,7 @@ def main():
         return
 
     weather.get_weather_data(
-        PARAMS={"lat": float(args.lat), "lon": float(args.long), "city": 'london'})
+        PARAMS={"lat": float(args.lat), "lon": float(args.long), "q": args.city, "units": str(args.units) or "metrics", "lang": str(args.lang)}, to_csv=args.to_csv)
 
 
 # Define init Main function
