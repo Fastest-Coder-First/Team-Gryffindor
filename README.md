@@ -55,7 +55,15 @@
 
 ### CLI Weather Forecast Usage
 
-1. Using Latitude and Longitude
+1. Helpers
+
+```sh
+   python app.py -helpers
+```
+
+![LAT_LAN](https://github.com/Fastest-Coder-First/Team-Gryffindor/blob/main/images/8.png)
+
+2. Using Latitude and Longitude
 
 ```sh
    python app.py -lat 20.0 -lon 34.0
@@ -63,7 +71,7 @@
 
 ![LAT_LAN](https://github.com/Fastest-Coder-First/Team-Gryffindor/blob/main/images/2.png)
 
-2. Using City Name
+3. Using City Name
 
 ```sh
    python app.py -city "Chennai"
@@ -71,7 +79,7 @@
 
 ![CITY](https://github.com/Fastest-Coder-First/Team-Gryffindor/blob/main/images/3.png)
 
-3. Converting weather data to CSV
+4. Converting weather data to CSV
 
 ```sh
    python app.py -city "Chennai" --to-csv
@@ -79,7 +87,7 @@
 
 ![csv](https://github.com/Fastest-Coder-First/Team-Gryffindor/blob/main/images/4.png)
 
-4. Generating temperature graph
+5. Generating temperature graph
 
 ```sh
    python app.py -city "London" --temp-graph
