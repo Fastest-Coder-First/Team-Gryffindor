@@ -57,7 +57,11 @@ class WeatherAPI:
 
         # Meteo API
         meteo_r = requests.get(url=self.METEO_API_URL, params={
-            "latitude": data['coord']['lat'], "longitude": data['coord']['lon'], "past_days": 10, "current_weather": "true", "hourly": "temperature_2m,relativehumidity_2m,windspeed_10m"})
+            "latitude": data['coord']['lat'], "longitude": data['coord']['lon'], "past_days": 10, "current_weather": "true", "daily": "temperature_2m_max", "timezone": "GMT", "forecast_days": 3})
+
+        if (r.status_code >= 400):
+            console.print_error(r.json()['message'])
+            return
 
         if (to_graph):
             self.generate_graph(dict(meteo_r.json()))
@@ -69,10 +73,11 @@ class WeatherAPI:
         args:
             meteo_json (dict): Meteo API JSON
         """
+        X = meteo_json['daily']['time']
+        Y = meteo_json['daily']['temperature_2m_max']
 
-        X = meteo_json['hourly']['time'][0:len(
-            meteo_json['hourly']['time'])-1:12]
-        Y = meteo_json['hourly']['temperature_2m'][0:len(
-            meteo_json['hourly']['time'])-1:12]
+        # Plotting the Graph
         plt.plot(X, Y)
+        plt.xticks(range(len(X)), X, rotation='vertical')
+        plt.tight_layout()
         plt.savefig('graph.png')

@@ -9,19 +9,23 @@ console = Console()
 
 
 def main():
-    # Generate welcome message
-    console.generate_welcome_message()
+    try:
+        # Generate welcome message
+        console.generate_welcome_message()
 
-    # Retrieve arguments
-    args = parser.parse_args()
-    print(args)
+        # Retrieve arguments
+        args = parser.parse_args()
 
-    if (args.helpers == True):
-        console.generate_commands_table()
-        return
+        # Check if helpers is true
+        if (args.helpers == True):
+            console.generate_commands_table()
+            return
 
-    weather.get_weather_data(
-        PARAMS={"lat": float(args.lat), "lon": float(args.long), "q": args.city, "units": str(args.units) or "metrics", "lang": str(args.lang)}, to_csv=args.to_csv, to_graph=args.temp_graph)
+        weather.get_weather_data(
+            PARAMS={"lat": float(args.lat), "lon": float(args.long), "q": args.city, "units": str(args.units) or "metrics", "lang": str(args.lang)}, to_csv=args.to_csv, to_graph=args.temp_graph)
+
+    except Exception as e:
+        console.print_error(e)
 
 
 # Define init Main function
