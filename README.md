@@ -25,6 +25,19 @@
 2. **Graph Generation**: The application can generate graphs to visualize the weather data, such as temperature, precipitation, or wind speed, for better understanding and analysis.
 3. **CSV Conversion**: Weather data can be converted into Comma-Separated Values (CSV) format, which enables easy importing and manipulation of data in spreadsheet software or other tools.
 
+## Project Structure
+
+├── README.md
+├── app.py
+├── console.py
+├── arg_parser.py
+├── weatherAPI.py
+├── requirements.txt
+├── configs
+│   ├── config.json
+│   └── texts.json
+└── images
+
 ### CLI Help
 
 ```sh
