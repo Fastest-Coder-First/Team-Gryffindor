@@ -1,0 +1,8 @@
+{
+  "welcome_message": "Welcome to the Custom Weather Console\n[yellow underline]Developed by Ashwin Balasubramanian",
+  "version": "1.0.0",
+  "status": "success",
+  "message": "Welcome to the API",
+  "data": "Welcome to the API",
+  "code": "200"
+}
