@@ -21,7 +21,7 @@ def main():
         return
 
     weather.get_weather_data(
-        PARAMS={"lat": float(args.lat), "lon": float(args.long), "q": args.city, "units": str(args.units) or "metrics", "lang": str(args.lang)}, to_csv=args.to_csv)
+        PARAMS={"lat": float(args.lat), "lon": float(args.long), "q": args.city, "units": str(args.units) or "metrics", "lang": str(args.lang)}, to_csv=args.to_csv, to_graph=args.temp_graph)
 
 
 # Define init Main function

@@ -20,7 +20,7 @@ class WeatherAPI:
         with open(os.path.join("configs", "config.json")) as f:
             self.api_key = json.load(f)['api_key']
 
-    def get_weather_data(self, PARAMS, to_csv=False):
+    def get_weather_data(self, PARAMS, to_csv=False, to_graph=False):
 
         PARAMS["appid"] = self.api_key
 
@@ -44,7 +44,9 @@ class WeatherAPI:
         # Meteo API
         meteo_r = requests.get(url=self.METEO_API_URL, params={
             "latitude": data['coord']['lat'], "longitude": data['coord']['lon'], "past_days": 10, "current_weather": "true", "hourly": "temperature_2m,relativehumidity_2m,windspeed_10m"})
-        self.generate_graph(dict(meteo_r.json()))
+
+        if (to_graph):
+            self.generate_graph(dict(meteo_r.json()))
 
     def generate_graph(self, meteo_json):
         X = meteo_json['hourly']['time'][0:len(
