@@ -20,7 +20,7 @@
 
 ### Features
 
-1. Weather Forecast: The application retrieves current weather conditions and a five-day forecast for the specified location.
+1. _Weather Forecast_: The application retrieves current weather conditions and a five-day forecast for the specified location.
    Location Search: Users can search for a location using the city name or geographical coordinates (latitude and longitude).
 2. Graph Generation: The application can generate graphs to visualize the weather data, such as temperature, precipitation, or wind speed, for better understanding and analysis.
 3. CSV Conversion: Weather data can be converted into Comma-Separated Values (CSV) format, which enables easy importing and manipulation of data in spreadsheet software or other tools.
