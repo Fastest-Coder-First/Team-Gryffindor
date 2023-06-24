@@ -31,6 +31,7 @@
 
 ## Project Structure
 
+```sh
 ├── README.md
 ├── app.py
 ├── console.py
@@ -41,6 +42,7 @@
 │   ├── config.json
 │   └── texts.json
 └── images
+```
 
 ### CLI Help
 
