@@ -130,6 +130,8 @@ To get a local copy up and running follow these simple example steps.
 
 - Its ability to give extensive suggestions for function and variable names was also beneficial. This allowed me to save time on naming variables and functions and focus on the core functionality of the application.
 
+- Copilot's ability to suggest comments for functions and classes was also beneficial. This allowed me to save time on writing comments and focus on the core functionality of the application.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
