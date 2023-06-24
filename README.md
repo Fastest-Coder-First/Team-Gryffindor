@@ -15,7 +15,7 @@
 
 ### CLI Help
 
-![CLI_HELP](https://github.com/Fastest-Coder-First/Team-Gryffindor/images/1.png)
+![CLI_HELP](https://github.com/Fastest-Coder-First/blob/Team-Gryffindor/images/1.png)
 </br>
 
 ### CLI Weather Forecast Usage
@@ -26,7 +26,7 @@
    python app.py -lat 20.0 -lon 34.0
 ```
 
-![LAT_LAN](https://github.com/Fastest-Coder-First/Team-Gryffindor/images/2.png)
+![LAT_LAN](https://github.com/Fastest-Coder-First/blob/Team-Gryffindor/images/2.png)
 
 2. Using City Name
 
@@ -34,7 +34,7 @@
    python app.py -city "Chennai"
 ```
 
-![CITY](https://github.com/Fastest-Coder-First/Team-Gryffindor/images/3.png)
+![CITY](https://github.com/Fastest-Coder-First/Team-Gryffindor/blob/images/3.png)
 
 3. Converting weather data to CSV
 
@@ -42,7 +42,7 @@
    python app.py -city "Chennai" --to-csv
 ```
 
-![csv](https://github.com/Fastest-Coder-First/Team-Gryffindor/images/4.png)
+![csv](https://github.com/Fastest-Coder-First/Team-Gryffindor/blob/images/4.png)
 
 4. Generating temperature graph
 
@@ -50,8 +50,8 @@
    python app.py -city "Chennai" --temp-graph
 ```
 
-![graph](https://github.com/Fastest-Coder-First/Team-Gryffindor/images/5.png)
-![graph](https://github.com/Fastest-Coder-First/Team-Gryffindor/images/6.png)
+![graph](https://github.com/Fastest-Coder-First/Team-Gryffindor/blob/images/5.png)
+![graph](https://github.com/Fastest-Coder-First/Team-Gryffindor/blob/images/6.png)
 
 </br>
 
