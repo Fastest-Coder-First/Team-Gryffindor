@@ -137,22 +137,27 @@ To get a local copy up and running follow these simple example steps.
 
 ### Error Handling
 
-- Copilot's ability to suggest error handling and debugging code snippets was another valuable asset during development. It helped me identify potential edge cases and provided suggestions for error-handling and exception-handling mechanisms. By incorporating Copilot's suggestions
+- Copilot's ability to suggest error handling and debugging code snippets was another valuable asset during development. It helped me identify potential edge cases and provided suggestions for error handling and exception-handling mechanisms. By incorporating Copilot's suggestions
   - Certain instances were
     - When the user enters an invalid location, the application will display an error message and exit.
 
 ### Accelerated Development
 
-- Github copilot enabled me to accelerate the development process by providing code snippets for everyday tasks such as reading and writing files, parsing JSON data, and generating graphs. This allowed me to focus on the core functionality of the application.
+- Github copilot enabled me to accelerate the development process by providing code snippets for parsing JSON data, and generating graphs. This allowed me to focus on the core functionality of the application.
 
-- Repetitive tasks such as reading and writing files, parsing JSON data, and generating graphs were made easier by Github Copilot's ability to provide code snippets for common tasks. This allowed me to focus on the core functionality of the application and save time on repetitive tasks.
+- Repetitive tasks such as reading and writing files and loops were made easier by Github Copilot's ability to provide code snippets for everyday tasks. This allowed me to focus on the application's core functionality and save time on repetitive tasks.
 
-- Its ability to give extensive suggestions for function and variable names was also beneficial. This allowed me to save time on naming variables and functions and focus on the core functionality of the application.
+- Its ability to give extensive suggestions for function and variable names was also beneficial. This allowed me to save time on naming variables and functions and focus on the application's core functionality.
 
-- Copilot's ability to suggest comments for functions and classes was also beneficial. This allowed me to save time on writing words and focus on the application's core functionality.
+- Copilot's ability to suggest comments for functions and classes was also beneficial. This allowed me to save time on writing words and comments and improved my code's readability.
 
 ## Contact
 
-![https://www.linkedin.com/in/ashwin-balasubramanian-0293691a5/][linkedin-shield] ![https://github.com/sinking8](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+* [LinkedIn](linkedin-url) 
+* [Github](github-url)
+  
 
+[github-shield]: https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white
+[github-url]: https://github.com/sinking8
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/ashwin-balasubramanian-0293691a5/
