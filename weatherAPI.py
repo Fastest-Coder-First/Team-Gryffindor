@@ -8,7 +8,10 @@ from console import *
 
 import matplotlib.pyplot as plt
 
+# Console Instance
 console = Console()
+
+# Weather API Class
 
 
 class WeatherAPI:
@@ -17,10 +20,21 @@ class WeatherAPI:
     METEO_API_URL = "https://api.open-meteo.com/v1/forecast"
 
     def __init__(self):
+        """
+        Constructor for WeatherAPI class.
+        """
         with open(os.path.join("configs", "config.json")) as f:
             self.api_key = json.load(f)['api_key']
 
     def get_weather_data(self, PARAMS, to_csv=False, to_graph=False):
+        """
+        Get Weather Data from API.
+
+        args:
+            PARAMS (dict): API Parameters
+            to_csv (bool): Convert to csv
+            to_graph (bool): Display Temperature Graph
+        """
 
         PARAMS["appid"] = self.api_key
 
@@ -49,6 +63,13 @@ class WeatherAPI:
             self.generate_graph(dict(meteo_r.json()))
 
     def generate_graph(self, meteo_json):
+        """
+        Generate Temperature Graph.
+
+        args:
+            meteo_json (dict): Meteo API JSON
+        """
+
         X = meteo_json['hourly']['time'][0:len(
             meteo_json['hourly']['time'])-1:12]
         Y = meteo_json['hourly']['temperature_2m'][0:len(

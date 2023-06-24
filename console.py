@@ -51,6 +51,9 @@ class Console:
         console.print((self.texts["welcome_message"]), style="bold green")
 
     def generate_commands_table(self):
+        """Creation of helpers table.
+    
+        """
 
         table = Table(title="Commands Table ")
 
@@ -66,6 +69,14 @@ class Console:
         console.print(table)
 
     def generate_weather_table(self, data, to_csv=True):
+        """
+        Creation of weather table.
+        
+        args:
+            data (dict): Weather Data
+            to_csv (bool): Convert to csv   
+        """
+
         table = Table(title="Weather Forecast - " + data['name'])
 
         keys = list(filter(lambda x: x in self.columns, list(data.keys())))
@@ -88,7 +99,19 @@ class Console:
             self.generate_csv(data)
 
     def print_error(self, error_msg):
+        """
+        Prints error message in red color.
+
+        args:
+            error_msg (str): Error Message
+        """
         console.print("Error : " + error_msg, style="bold red")
 
     def generate_csv(self, data):
+        """
+        Generates csv file from weather data.
+
+        args:
+            data (dict): Weather Data
+        """    
         pd.DataFrame(data, index=[0]).to_csv('weather.csv', index=False)
