@@ -1,8 +1,3 @@
 {
-  "welcome_message": "Welcome to the Custom Weather Console\n[yellow underline]Developed by Ashwin Balasubramanian",
-  "version": "1.0.0",
-  "status": "success",
-  "message": "Welcome to the API",
-  "data": "Welcome to the API",
-  "code": "200"
+  "welcome_message": "\nWelcome to the Custom Weather Console - [yellow]Developed by Ashwin Balasubramanian\n[blue underline]https://www.linkedin.com/in/ashwin-balasubramanian-0293691a5/\n"
 }

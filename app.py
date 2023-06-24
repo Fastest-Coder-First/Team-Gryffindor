@@ -21,6 +21,8 @@ def main():
 
     days_limit = int(args.days_limit)
     console.generate_commands_table()
+    if (args.helpers):
+        console.generate_commands_table()
 
     while (True):
 
