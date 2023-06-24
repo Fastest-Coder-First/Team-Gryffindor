@@ -15,6 +15,10 @@
 
 ### CLI Help
 
+```sh
+   python app.py -h
+```
+
 ![CLI_HELP](https://github.com/Fastest-Coder-First/Team-Gryffindor/blob/main/images/1.png)
 </br>
 
@@ -47,7 +51,7 @@
 4. Generating temperature graph
 
 ```sh
-   python app.py -city "Chennai" --temp-graph
+   python app.py -city "London" --temp-graph
 ```
 
 ![graph](https://github.com/Fastest-Coder-First/Team-Gryffindor/blob/main/images/5.png)
