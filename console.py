@@ -14,9 +14,30 @@ class Console:
 
     columns = ['name', 'country', 'humidity', 'main',
                'description', 'temp', 'feels_like', 'temp_min', 'temp_max', 'pressure']
+    
+    weather_icons = {
+    "01d": "☀️",
+    "02d": "⛅️",
+    "03d": "☁️",
+    "04d": "☁️",
+    "09d": "🌧",
+    "10d": "🌦",
+    "11d": "⛈",
+    "13d": "🌨",
+    "50d": "🌫",
+    "01n": "🌙",
+    "02n": "☁️",
+    "03n": "☁️",
+    "04n": "☁️",
+    "09n": "🌧",
+    "10n": "🌦",
+    "11n": "⛈",
+    "13n": "🌨",
+    "50n": "🌫"
+}
 
-    colors = ['cyan', 'magenta', 'green', 'yellow', 'blue', 'red', 'white', 'black', 'bright_red',
-              'bright_green', 'bright_yellow', 'bright_blue', 'bright_magenta', 'bright_cyan', 'bright_white']
+    colors = ['cyan', 'magenta', 'green', 'yellow', 'blue',
+              'red', 'bright_magenta', 'bright_green', 'bright_red']
 
     commands = {'--to-csv': 'Converts Weather Data to csv format',
                 '--temp-graph': 'Display Temperature Graph'}
@@ -57,7 +78,7 @@ class Console:
         values = [str(data[key]) for key in keys]
 
         # Adding Table Row
-        table.add_row(values[0], values[1], values[2],
+        table.add_row(values[0], values[1] +  self.weather_icons[data['icon']], values[2],
                       values[3], values[4], values[5], values[6], values[7], values[8])
 
         # Console Print
